@@ -1,7 +1,8 @@
-function palitos(entero){
-  
-  let list = [6,8,13,18,22,27,33,36,43,49];
-    return list[Number(entero)];
+function numerosI(str){
+  let a = str.split("");
+  console.log(a);
+  let b = a.filter(x=> parseInt(x)==Number(x)).join("");
+  console.log(b);
 }
-console.log(palitos(0));
-list 
+numerosI("dsfgasdrg545a6"); 
+ 
